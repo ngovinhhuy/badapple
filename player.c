@@ -11,7 +11,7 @@ char waitframe(time_t start,int fps,int next_frame){
 int play(char *fname,int set_fps){
     FILE *f=fopen(fname,"r");
     if(f==NULL){
-        mvprintw(0,0,"Unale to open file!\n");
+        puts("Unable to open file!");
         return 2;
     }
     else{
