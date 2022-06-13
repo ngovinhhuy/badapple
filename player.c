@@ -26,7 +26,7 @@ int play(char *fname,int set_fps){
                 framecount++;
             }
             else{
-                printw(chunk);
+                addstr(chunk);
                 refresh();
             }
         }
