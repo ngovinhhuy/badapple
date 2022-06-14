@@ -4,4 +4,4 @@ https://github.com/tem6/badapple
 
 Build from C code:
 
-` g++ player.c -lncurses -o player.out`
+` gcc player.c -lncurses -o player.out`
