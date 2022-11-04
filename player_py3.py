@@ -49,7 +49,7 @@ def play(window, fname, set_fps):
 # Terminate the application if no argument set.
 def main():
     if len(sys.argv) < 3:
-        print("No argument.")
+        print(f"Usage: {sys.argv[0]} <file_name> <fps>")
         return
     fn_list = sys.argv[1]
     set_fps = int(sys.argv[2])
